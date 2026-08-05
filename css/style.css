@@ -702,6 +702,23 @@ a {
     border-radius: 28px;
 }
 
+.founder-avatar {
+    display: grid;
+    width: 100px;
+    height: 100px;
+    place-items: center;
+    overflow: hidden;
+    background: var(--white);
+    border-radius: 28px;
+}
+
+.founder-logo {
+    display: block;
+    width: 82px;
+    height: 82px;
+    object-fit: contain;
+}
+
 .founder-card p {
     margin: 45px 0 5px;
     color: var(--cyan-400);
