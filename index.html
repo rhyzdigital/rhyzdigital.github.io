@@ -16,8 +16,26 @@
     <meta property="og:url" content="https://rhyzdigital.github.io/">
     <meta property="og:image" content="https://rhyzdigital.github.io/assets/og-image.svg">
 
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="apple-touch-icon" href="assets/logo.png">
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .brand-mark-image {
+            display: block;
+            width: 48px;
+            height: 48px;
+            object-fit: contain;
+            border-radius: 12px;
+        }
+
+        @media (max-width: 760px) {
+            .brand-mark-image {
+                width: 42px;
+                height: 42px;
+            }
+        }
+    </style>
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -25,11 +43,17 @@
     <header class="site-header" id="top">
         <div class="container nav-wrap">
             <a class="brand" href="#top" aria-label="RHYZ Digital home">
-                <span class="brand-mark" aria-hidden="true">R</span>
+                <img
+                        src="assets/logo.png"
+                        alt=""
+                        class="brand-mark-image"
+                        aria-hidden="true"
+                >
+
                 <span class="brand-text">
-                    <strong>RHYZ</strong>
-                    <small>DIGITAL</small>
-                </span>
+                <strong>RHYZ</strong>
+                <small>DIGITAL</small>
+            </span>
             </a>
 
             <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
