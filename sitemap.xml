@@ -4,5 +4,11 @@
         <loc>https://rhyzdigital.github.io/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
-    </url>
+</url>
+<url>
+  <loc>https://rhyzdigital.github.io/apps/multitimer/</loc>
+</url>
+<url>
+  <loc>https://rhyzdigital.github.io/apps/multitimer/download/</loc>
+</url>
 </urlset>
