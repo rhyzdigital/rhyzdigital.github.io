@@ -6,9 +6,15 @@
         <priority>1.0</priority>
 </url>
 <url>
+  <loc>https://rhyzdigital.github.io/apps/</loc>
+</url>
+<url>
   <loc>https://rhyzdigital.github.io/apps/multitimer/</loc>
 </url>
 <url>
   <loc>https://rhyzdigital.github.io/apps/multitimer/download/</loc>
+</url>
+<url>
+  <loc>https://rhyzdigital.github.io/apps/pdf-compressor/</loc>
 </url>
 </urlset>
