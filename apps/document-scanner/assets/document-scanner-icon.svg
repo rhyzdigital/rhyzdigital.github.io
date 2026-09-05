@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-labelledby="title">
+  <title id="title">Document Scanner by RHYZ Digital</title>
+  <rect width="108" height="108" rx="22" fill="#0A7B70"/>
+  <path fill="#FFF" d="M29 20h38l12 12v56H29z"/>
+  <path fill="#BDEDE6" d="M67 20v13h12z"/>
+  <path fill="#0A7B70" d="M38 47h32v4H38zm0 10h32v4H38zm0 10h23v4H38z"/>
+  <path fill="#FFB547" d="M20 24h14v4H24v10h-4zm54 0h14v14h-4V28H74zM20 70h4v10h10v4H20zm64 0h4v14H74v-4h10z"/>
+</svg>

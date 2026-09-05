@@ -1160,10 +1160,35 @@ body.nav-open {
 .donation-qr figcaption { display: flex; flex-direction: column; }
 .donation-options.compact { margin-top: 24px; }
 .donate-panel .donation-options.compact img { margin: 0 0 8px; }
+.apps-preview-grid.three-apps, .directory-grid.three-apps { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.apps-preview-grid.three-apps .app-preview-card { grid-template-columns: 82px 1fr; gap: 18px; padding: 26px; }
+.apps-preview-grid.three-apps .app-preview-card > img, .apps-preview-grid.three-apps .app-preview-card > .pdf-app-icon { width: 82px; height: 82px; border-radius: 20px; }
+.directory-grid.three-apps .directory-app-card { padding: 30px; }
+.directory-grid.three-apps .directory-app-top { align-items: flex-start; flex-direction: column; }
+.scanner-product-hero { background: radial-gradient(circle at 80% 20%,rgba(13,148,136,.16),transparent 34%),linear-gradient(180deg,#fff,#f4fbfa); }
+.scanner-product-page .product-copy h1 span, .scanner-eyebrow { color: #0f766e; }
+.scanner-button { background: linear-gradient(135deg,#0f766e,#0d9488); box-shadow: 0 16px 35px rgba(15,118,110,.24); }
+.scanner-showcase { display: grid; place-items: center; }
+.scanner-showcase > img { width: min(100%,360px); border-radius: 30%; box-shadow: 0 34px 80px rgba(15,118,110,.22); }
+.scanner-capabilities { display: flex; flex-wrap: wrap; justify-content: center; gap: 9px; margin-top: 26px; }
+.scanner-capabilities span { padding: 9px 13px; color: #115e59; font-size: .8rem; font-weight: 700; background: #ccfbf1; border: 1px solid #99f6e4; border-radius: 999px; }
+.scanner-product-page .feature-card > span { color: #0f766e; }
+.scanner-privacy-section { background: #f0fdfa; }
+.privacy-feature { display: grid; grid-template-columns: .8fr 1.2fr; gap: 80px; align-items: start; }
+.privacy-feature h2 { margin: 0; font-size: clamp(2.4rem,5vw,4.3rem); line-height: 1.05; letter-spacing: -.045em; }
+.privacy-feature > div:last-child { color: var(--slate-600); font-size: 1.05rem; }
+.privacy-feature > div:last-child p:first-child { margin-top: 0; }
+.scanner-support-card { background: radial-gradient(circle at 88% 20%,rgba(94,234,212,.25),transparent 30%),linear-gradient(135deg,#0f766e,#115e59); }
 
 @media (max-width: 980px) {
     .apps-preview-grid, .directory-grid { grid-template-columns: 1fr; }
+    .apps-preview-grid.three-apps, .directory-grid.three-apps { grid-template-columns: 1fr; }
+    .apps-preview-grid.three-apps .app-preview-card { grid-template-columns: 104px 1fr; gap: 24px; padding: 30px; }
+    .apps-preview-grid.three-apps .app-preview-card > img, .apps-preview-grid.three-apps .app-preview-card > .pdf-app-icon { width: 104px; height: 104px; border-radius: 24px; }
+    .directory-grid.three-apps .directory-app-card { padding: 36px; }
+    .directory-grid.three-apps .directory-app-top { align-items: center; flex-direction: row; }
     .support-card-wide { grid-template-columns: 1fr; }
+    .privacy-feature { grid-template-columns: 1fr; gap: 30px; }
 }
 
 @media (max-width: 760px) {
@@ -1181,4 +1206,8 @@ body.nav-open {
     .document-sheet { width: 100px; height: 140px; padding: 19px 15px; }
     .file-result { min-width: 0; }
     .donation-options { grid-template-columns: 1fr; }
+    .apps-preview-grid.three-apps .app-preview-card { grid-template-columns: 76px 1fr; padding: 24px; }
+    .apps-preview-grid.three-apps .app-preview-card > img, .apps-preview-grid.three-apps .app-preview-card > .pdf-app-icon { width: 76px; height: 76px; border-radius: 18px; }
+    .directory-grid.three-apps .directory-app-card { padding: 26px 22px; }
+    .directory-grid.three-apps .directory-app-top { align-items: center; flex-direction: row; }
 }
