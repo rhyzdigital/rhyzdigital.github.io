@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">RHYZ Digital Free Android Apps</title>
+  <desc id="desc">A flat blue social banner featuring MultiTimer, PDF Compressor, Document Scanner, and Background Remover.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07152f"/>
+      <stop offset="1" stop-color="#12377c"/>
+    </linearGradient>
+    <clipPath id="icon-1"><rect x="685" y="121" width="112" height="112" rx="25"/></clipPath>
+    <clipPath id="icon-2"><rect x="884" y="121" width="112" height="112" rx="25"/></clipPath>
+    <clipPath id="icon-3"><rect x="685" y="320" width="112" height="112" rx="25"/></clipPath>
+    <clipPath id="icon-4"><rect x="884" y="320" width="112" height="112" rx="25"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <circle cx="1128" cy="-40" r="245" fill="#2563eb" opacity=".24"/>
+  <circle cx="-36" cy="630" r="210" fill="#0891b2" opacity=".15"/>
+  <path d="M0 84h1200M0 546h1200" stroke="#60a5fa" stroke-width="1" opacity=".12"/>
+  <path d="M602 0v630" stroke="#60a5fa" stroke-width="1" opacity=".12"/>
+
+  <g transform="translate(72 68)">
+    <rect width="58" height="58" rx="16" fill="#fff"/>
+    <path d="M17 21h24M17 29h24M17 37h15" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="39" cy="37" r="6" fill="#06b6d4"/>
+    <text x="76" y="27" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="1.4">RHYZ DIGITAL</text>
+    <text x="76" y="50" fill="#93c5fd" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" letter-spacing="2.2">MOBILE UTILITIES</text>
+  </g>
+
+  <text x="72" y="260" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="800">Free Android</text>
+  <text x="72" y="336" fill="#38bdf8" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="800">Apps</text>
+  <text x="72" y="395" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="23">Simple tools for everyday tasks.</text>
+  <g transform="translate(72 442)">
+    <rect width="252" height="52" rx="26" fill="#fff"/>
+    <path d="M26 17l17 9-17 9z" fill="#2563eb"/>
+    <text x="57" y="34" fill="#0f2861" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">FREE APK DOWNLOADS</text>
+  </g>
+
+  <g>
+    <rect x="650" y="86" width="181" height="181" rx="34" fill="#fff"/>
+    <image href="../apps/multitimer/assets/multitimer-icon.png" x="685" y="121" width="112" height="112" clip-path="url(#icon-1)" preserveAspectRatio="xMidYMid slice"/>
+    <text x="740.5" y="253" text-anchor="middle" fill="#172554" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">MULTITIMER</text>
+
+    <rect x="849" y="86" width="181" height="181" rx="34" fill="#fff"/>
+    <image href="../apps/pdf-compressor/assets/pdf-compressor-icon.png" x="884" y="121" width="112" height="112" clip-path="url(#icon-2)" preserveAspectRatio="xMidYMid slice"/>
+    <text x="939.5" y="253" text-anchor="middle" fill="#172554" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">PDF COMPRESSOR</text>
+
+    <rect x="650" y="285" width="181" height="181" rx="34" fill="#fff"/>
+    <image href="../apps/document-scanner/assets/document-scanner-icon-512.png" x="685" y="320" width="112" height="112" clip-path="url(#icon-3)" preserveAspectRatio="xMidYMid slice"/>
+    <text x="740.5" y="452" text-anchor="middle" fill="#172554" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">DOC SCANNER</text>
+
+    <rect x="849" y="285" width="181" height="181" rx="34" fill="#fff"/>
+    <image href="../apps/background-remover/assets/background-remover-icon.png" x="884" y="320" width="112" height="112" clip-path="url(#icon-4)" preserveAspectRatio="xMidYMid slice"/>
+    <text x="939.5" y="452" text-anchor="middle" fill="#172554" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">BG REMOVER</text>
+  </g>
+
+  <g fill="#38bdf8">
+    <circle cx="1086" cy="505" r="7"/><circle cx="1114" cy="505" r="7"/><circle cx="1142" cy="505" r="7"/>
+  </g>
+  <text x="1128" y="559" text-anchor="end" fill="#bfdbfe" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600">rhyzdigital.github.io/apps</text>
+</svg>
